@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/home.css">
+    <link rel='stylesheet' href="./style.css">
     
     <title>Document</title>
 </head>
@@ -21,27 +22,17 @@
     </header>
     <main>
         <section class="main-section">
-           <!-- <img class="main-logo" src="./assets/alchemy-logo.png" /> -->
-            <h2>
-                CALCULATOR
-            </h2>
-            <input id='firstdigit' type="text">
-            <div>+</div>
-            <input id='seconddigit' type='text'>
-            <button id='calcbutton'type='button'>Add</button>      
-               
-
-            
-            <button id='subbutton'type='button'>Subtract</button>      
-            
-
-            
-            <button id='timesbutton'type='button'>Multiply</button>      
-            
-
-            
-            <button id='dividebutton'type='button'>Divide</button>      
-            <div id = 'result' > </div>  
+            <h2 id='title'>CALCULATOR</h2>
+            <input id='firstdigit' class='inputs' type="text">
+            <div id='operator'>(+) (-) (x) (/)</div>
+            <input id='seconddigit' class='inputs' type='text'><br> 
+            <div id='buttons'>
+                <button id='calcbutton'type='button'>Add</button>      
+                <button id='subbutton'type='button'>Subtract</button>      
+                <button id='timesbutton'type='button'>Multiply</button>      
+                <button id='dividebutton'type='button'>Divide</button>     
+            </div> 
+            <div id ='result'></div>  
         </section>
     </main>
     <footer>

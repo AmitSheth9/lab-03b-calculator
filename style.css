@@ -1,2 +1,13 @@
 
 
+body {
+    background-color: red;
+}
+
+#title, #result, #operator {
+    color: yellow;
+}
+
+input {
+    
+}
